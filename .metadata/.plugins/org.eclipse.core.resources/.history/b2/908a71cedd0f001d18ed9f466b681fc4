@@ -1,0 +1,7 @@
+
+public interface Logger {
+
+	public Log();
+	public Error();
+	
+}

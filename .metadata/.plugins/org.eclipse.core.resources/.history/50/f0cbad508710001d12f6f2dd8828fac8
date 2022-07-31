@@ -3,35 +3,31 @@ public class AsteriskLogger implements Logger {
 
 	@Override
 	public void Log(String info) {
-		// This method prints out the String info parameter between 3 asterisks
-		// on each side
 		System.out.println("***" + info + "***");
 	}
 
 	@Override
 	public void Error(String error) {
-		// This method surrounds the String parameter around an asterisk cube
-		// with the string preceded by "ERROR:".
+		// This code considers the string's length to determines the exact number 
+		// of asterisks to add to form a symmetrical box (top of box)
 		StringBuilder asteriskLine1 = new StringBuilder();
 		for (int i = 0; i < (13 + error.length()); i++) {
 			asteriskLine1.append('*');
 		}
-		System.out.println(asteriskLine1.toString());
+		System.out.println(asteriskLine1);
 		
-		//
-		String middlePart = ("***Error: " + error + "***");
-		System.out.println(middlePart.toString());
+		// This code prints the middle section of the box
+		System.out.println("***Error: " + error + "***");
 
-		// 
+		// Same as Line 12. This is the bottom of the box
 		StringBuilder asteriskLine2 = new StringBuilder();
 		for (int i = 0; i < (13 + error.length()); i++) {
 			asteriskLine2.append('*');
 		}
-		System.out.println(asteriskLine2.toString());
+		System.out.println(asteriskLine2);
 
 		
 	}
 
-	
 	
 }

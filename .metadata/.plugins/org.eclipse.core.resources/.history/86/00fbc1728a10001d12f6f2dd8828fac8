@@ -13,7 +13,7 @@ public class SpacedLogger implements Logger {
 				withSpaces.append(" ");
 			}
 		}
-		System.out.println(withSpaces.toString());
+		
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class SpacedLogger implements Logger {
 				withSpaces.append(" ");
 			}
 		}
-		System.out.println("ERROR: " + withSpaces.toString());
+		System.out.println("ERROR: " + error);
 		
 		
 	}

@@ -11,7 +11,7 @@ public class AsteriskLogger implements Logger {
 	@Override
 	public void Error(String error) {
 		// This method surrounds the String parameter around an asterisk cube
-		// with the string preceded by "ERROR:".
+		// with the string preceeded by "ERROR:".
 		StringBuilder asteriskLine1 = new StringBuilder();
 		for (int i = 0; i < (13 + error.length()); i++) {
 			asteriskLine1.append('*');

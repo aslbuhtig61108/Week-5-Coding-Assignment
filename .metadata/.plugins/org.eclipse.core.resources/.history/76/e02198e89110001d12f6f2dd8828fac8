@@ -15,7 +15,6 @@ public class SpacedLogger implements Logger {
 				withSpaces.append(" ");
 			}
 		}
-		// Adding "\n\n" helps delineate between the two outputs for readibility
 		System.out.println(withSpaces.toString()+ "\n\n");
 	}
 

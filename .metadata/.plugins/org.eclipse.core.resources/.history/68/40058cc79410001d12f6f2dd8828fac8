@@ -7,7 +7,7 @@ public class App {
 		Logger Logger = new SpacedLogger();
 		
 		Logger.Log("Happy");
-		Logger.Error("Sunday");
+		Logger.Error("Sunday!");
 
 	}
 

@@ -4,10 +4,10 @@ public class App {
 	public static void main(String[] args) {
 		// When using an interface, you benefit in terms of
 		// switching classes because they classes share the same methods
-		Logger Logger = new SpacedLogger();
+		Logger Logger = new AsteriskLogger();
 		
-		Logger.Log("Happy");
-		Logger.Error("Sunday");
+		Logger.Log("Good Evening");
+		Logger.Error("Everyone");
 
 	}
 

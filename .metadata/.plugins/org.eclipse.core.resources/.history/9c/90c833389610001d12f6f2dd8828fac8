@@ -6,8 +6,8 @@ public class App {
 		// switching classes because they classes share the same methods
 		Logger Logger = new SpacedLogger();
 		
-		Logger.Log("Happy");
-		Logger.Error("Sunday");
+		Logger.Log("Promineo Tech");
+		Logger.Error("Promineo Tech");
 
 	}
 

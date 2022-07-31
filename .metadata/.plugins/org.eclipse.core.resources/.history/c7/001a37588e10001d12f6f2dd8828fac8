@@ -32,7 +32,7 @@ public class AsteriskLogger implements Logger {
 		System.out.println(middlePart.toString());
 
 		// This is the bottom section of the box
-		// I copied the prntln result from LINE28 to save time and less lines of code
+		// I only copied the prntln result from LINE28
 		System.out.println(asteriskLine.toString());
 
 		

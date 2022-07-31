@@ -7,8 +7,6 @@ public class SpacedLogger implements Logger {
 		// of the string parameter
 		StringBuilder withSpaces = new StringBuilder();
 		
-		// I recall a lab exercise asking to add a '-' between a list of integers
-		// I thought this was effective by replacing the '-' with a " "
 		for (int a = 0; a < info.length(); a++) {
 			withSpaces.append(info.charAt(a));
 			if (a != info.length()-1) {
